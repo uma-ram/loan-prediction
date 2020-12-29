@@ -1,0 +1,102 @@
+2020-12-27T12:44:23.777064+00:00 app[api]: Initial release by user g_uma_21@yahoo.com
+2020-12-27T12:44:23.777064+00:00 app[api]: Release v1 created by user g_uma_21@yahoo.com
+2020-12-27T12:44:23.955244+00:00 app[api]: Enable Logplex by user g_uma_21@yahoo.com
+2020-12-27T12:44:23.955244+00:00 app[api]: Release v2 created by user g_uma_21@yahoo.com
+2020-12-27T12:44:44.000000+00:00 app[api]: Build started by user g_uma_21@yahoo.com
+2020-12-27T12:46:44.774874+00:00 app[api]: Deploy f5400087 by user g_uma_21@yahoo.com
+2020-12-27T12:46:44.774874+00:00 app[api]: Release v3 created by user g_uma_21@yahoo.com
+2020-12-27T12:46:44.792079+00:00 app[api]: Scaled to web@1:Free by user g_uma_21@yahoo.com
+2020-12-27T12:47:00.250015+00:00 heroku[web.1]: Starting process with command `gunicorn server.server:app`
+2020-12-27T12:47:02.393559+00:00 app[web.1]: bash: gunicorn: command not found
+2020-12-27T12:47:02.454705+00:00 heroku[web.1]: Process exited with status 127
+2020-12-27T12:47:02.488729+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-27T12:47:02.491516+00:00 heroku[web.1]: State changed from crashed to starting
+2020-12-27T12:47:18.076256+00:00 heroku[web.1]: Starting process with command `gunicorn server.server:app`
+2020-12-27T12:47:19.844320+00:00 app[web.1]: bash: gunicorn: command not found
+2020-12-27T12:47:19.904350+00:00 heroku[web.1]: Process exited with status 127
+2020-12-27T12:47:19.941459+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-27T12:47:35.000000+00:00 app[api]: Build succeeded
+2020-12-27T12:49:15.650788+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=umaramloanpredict.herokuapp.com request_id=a367b1ff-1250-4d7b-bc1c-bfb82a8499fe fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T12:49:21.226854+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=umaramloanpredict.herokuapp.com request_id=7289736c-6277-4ef0-9d7c-fb33513cfee0 fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T12:49:56.779784+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=umaramloanpredict.herokuapp.com request_id=a6ca19cd-502f-440a-9c73-d21347106b65 fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T12:49:59.601023+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=umaramloanpredict.herokuapp.com request_id=d08848d2-1ae5-4606-8c44-af0447e484a5 fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T13:14:38.018129+00:00 heroku[web.1]: State changed from crashed to starting
+2020-12-27T13:14:43.000000+00:00 app[api]: Build started by user g_uma_21@yahoo.com
+2020-12-27T13:15:02.638408+00:00 heroku[web.1]: Starting process with command `gunicorn server.server:app`
+2020-12-27T13:15:05.727656+00:00 app[web.1]: bash: gunicorn: command not found
+2020-12-27T13:15:05.810467+00:00 heroku[web.1]: Process exited with status 127
+2020-12-27T13:15:05.867950+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-27T13:15:49.307353+00:00 app[api]: Deploy 3d6eb95b by user g_uma_21@yahoo.com
+2020-12-27T13:15:49.307353+00:00 app[api]: Release v4 created by user g_uma_21@yahoo.com
+2020-12-27T13:15:49.515592+00:00 heroku[web.1]: State changed from crashed to starting
+2020-12-27T13:16:12.313675+00:00 heroku[web.1]: Starting process with command `gunicorn server.server:app`
+2020-12-27T13:16:15.262370+00:00 app[web.1]: bash: gunicorn: command not found
+2020-12-27T13:16:15.327298+00:00 heroku[web.1]: Process exited with status 127
+2020-12-27T13:16:15.407315+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-27T13:16:35.000000+00:00 app[api]: Build succeeded
+2020-12-27T13:17:27.209641+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=umaramloanpredict.herokuapp.com request_id=9c80d1a4-6764-4a37-ae87-d234bd4b2e9b fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T13:17:31.462694+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=umaramloanpredict.herokuapp.com request_id=6e80c6e0-f495-45e0-a398-a84edcf7297c fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T13:28:33.104830+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=umaramloanpredict.herokuapp.com request_id=01a0dc97-7a3c-487f-a91a-8708aac87170 fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T13:28:33.873166+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=umaramloanpredict.herokuapp.com request_id=0ec4cabb-b75d-4c50-ad89-1d1921f96c9b fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T13:31:06.922272+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=umaramloanpredict.herokuapp.com request_id=a383ab52-b567-4d13-9c16-64e5734b72de fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=http
+2020-12-27T13:31:09.678058+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=umaramloanpredict.herokuapp.com request_id=73e97fb0-0cfa-4d9a-9c41-0a0c066ea45f fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=http
+2020-12-27T13:31:53.738770+00:00 heroku[web.1]: State changed from crashed to starting
+2020-12-27T13:32:10.924381+00:00 heroku[web.1]: Starting process with command `gunicorn server.server:app`
+2020-12-27T13:32:12.864406+00:00 app[web.1]: bash: gunicorn: command not found
+2020-12-27T13:32:12.914286+00:00 heroku[web.1]: Process exited with status 127
+2020-12-27T13:32:12.949342+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-27T13:54:32.005859+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=umaramloanpredict.herokuapp.com request_id=e8f43c1c-7328-4dad-a737-7c8f50b5c828 fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=http
+2020-12-27T13:55:36.979710+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=umaramloanpredict.herokuapp.com request_id=3e74ebc4-1817-44b8-9e5f-7bf22560621a fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T13:55:40.892163+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=umaramloanpredict.herokuapp.com request_id=2b73eb55-142e-40b9-9aee-f3500929b150 fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T14:06:50.768064+00:00 heroku[web.1]: State changed from crashed to starting
+2020-12-27T14:07:07.784342+00:00 heroku[web.1]: Starting process with command `gunicorn server.server:app`
+2020-12-27T14:07:10.403449+00:00 app[web.1]: bash: gunicorn: command not found
+2020-12-27T14:07:10.468998+00:00 heroku[web.1]: Process exited with status 127
+2020-12-27T14:07:10.514813+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-27T14:57:16.871886+00:00 heroku[web.1]: State changed from crashed to starting
+2020-12-27T14:57:32.263496+00:00 heroku[web.1]: Starting process with command `gunicorn server.server:app`
+2020-12-27T14:57:33.791759+00:00 app[web.1]: bash: gunicorn: command not found
+2020-12-27T14:57:33.844652+00:00 heroku[web.1]: Process exited with status 127
+2020-12-27T14:57:33.885870+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-27T15:54:37.307045+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=umaramloanpredict.herokuapp.com request_id=f8596101-987e-4fc3-8931-d0c83ed7c17f fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T16:32:42.000000+00:00 app[api]: Build started by user g_uma_21@yahoo.com
+2020-12-27T16:34:30.926522+00:00 app[api]: Release v5 created by user g_uma_21@yahoo.com
+2020-12-27T16:34:30.926522+00:00 app[api]: Deploy 440dac8a by user g_uma_21@yahoo.com
+2020-12-27T16:34:31.386860+00:00 heroku[web.1]: State changed from crashed to starting
+2020-12-27T16:34:40.828206+00:00 heroku[web.1]: Starting process with command `gunicorn server.server:app`
+2020-12-27T16:34:42.593397+00:00 app[web.1]: bash: gunicorn: command not found
+2020-12-27T16:34:42.636641+00:00 heroku[web.1]: Process exited with status 127
+2020-12-27T16:34:42.682300+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-27T16:34:42.685372+00:00 heroku[web.1]: State changed from crashed to starting
+2020-12-27T16:34:54.000000+00:00 app[api]: Build succeeded
+2020-12-27T16:34:56.447286+00:00 heroku[web.1]: Starting process with command `gunicorn server.server:app`
+2020-12-27T16:34:59.302446+00:00 app[web.1]: bash: gunicorn: command not found
+2020-12-27T16:34:59.378241+00:00 heroku[web.1]: Process exited with status 127
+2020-12-27T16:34:59.418036+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-27T16:36:11.037378+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=umaramloanpredict.herokuapp.com request_id=26e06941-ae1a-4c7a-954b-53c3268e5305 fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T16:36:15.630303+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=umaramloanpredict.herokuapp.com request_id=4ddc766c-723d-4f70-a393-70ed1a3f52c5 fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T16:36:24.456417+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=umaramloanpredict.herokuapp.com request_id=7c1dde91-9c04-45a4-93b6-d4ac27f887ab fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T16:36:27.066997+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=umaramloanpredict.herokuapp.com request_id=74c3e881-0af2-4b9d-af60-b56b1946c39d fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-27T17:18:36.036216+00:00 heroku[web.1]: State changed from crashed to starting
+2020-12-27T17:18:43.806671+00:00 heroku[web.1]: Starting process with command `gunicorn server.server:app`
+2020-12-27T17:18:45.640535+00:00 app[web.1]: bash: gunicorn: command not found
+2020-12-27T17:18:45.698544+00:00 heroku[web.1]: Process exited with status 127
+2020-12-27T17:18:45.742691+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-27T18:08:04.944156+00:00 heroku[web.1]: State changed from crashed to starting
+2020-12-27T18:08:12.815902+00:00 heroku[web.1]: Starting process with command `gunicorn server.server:app`
+2020-12-27T18:08:14.651270+00:00 app[web.1]: bash: gunicorn: command not found
+2020-12-27T18:08:14.696024+00:00 heroku[web.1]: Process exited with status 127
+2020-12-27T18:08:14.740367+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-27T19:49:13.764131+00:00 heroku[web.1]: State changed from crashed to starting
+2020-12-27T19:49:22.191624+00:00 heroku[web.1]: Starting process with command `gunicorn server.server:app`
+2020-12-27T19:49:23.951830+00:00 app[web.1]: bash: gunicorn: command not found
+2020-12-27T19:49:23.991226+00:00 heroku[web.1]: Process exited with status 127
+2020-12-27T19:49:24.033074+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-27T23:06:16.030983+00:00 heroku[web.1]: State changed from crashed to starting
+2020-12-27T23:06:29.055261+00:00 heroku[web.1]: Starting process with command `gunicorn server.server:app`
+2020-12-27T23:06:32.038435+00:00 app[web.1]: bash: gunicorn: command not found
+2020-12-27T23:06:32.134325+00:00 heroku[web.1]: Process exited with status 127
+2020-12-27T23:06:32.192129+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-28T02:12:10.903315+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=umaramloanpredict.herokuapp.com request_id=4239c865-256f-4416-808b-8723e54c0056 fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-28T02:12:12.323147+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=umaramloanpredict.herokuapp.com request_id=86e59ac9-2c9e-4608-870b-f6688d1b09a0 fwd="182.65.34.141" dyno= connect= service= status=503 bytes= protocol=https
+Terminate batch job (Y/N)? Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
